@@ -111,7 +111,7 @@ h6 {
   background: #212431;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  padding: 7px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
@@ -441,7 +441,46 @@ section {
 /*----------------------------------
 #Projects
 -------------------*/
+.Projects {
+  padding-bottom: 130px;
+}
 
+.Projects .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 10px;
+}
+
+.Projects .info i {
+  font-size: 20px;
+  color: #149ddd;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #dff3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Projects .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.Projects .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #173b6c;
+}
 
 
 
